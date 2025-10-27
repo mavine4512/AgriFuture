@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Agriculture Hub</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>AgriFuture</span>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav>
+                    <ul id="navMenu">
+                        <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                        <li><a href="#" class="nav-link" data-page="about">About Us</a></li>
+                        <li><a href="#" class="nav-link" data-page="services">Services</a></li>
+                        <li><a href="#" class="nav-link" data-page="gallery">Gallery</a></li>
+                        <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="hero">
+                <h1>Sustainable Agriculture for a Better Future</h1>
+                <p>Discover innovative farming practices that protect our environment while ensuring food security for generations to come.</p>
+                <a href="#" class="btn nav-link" data-page="about" style="margin-top: 1.5rem;">Learn More</a>
+            </div>
+
+            <h2 class="section-title">Why Sustainable Agriculture Matters</h2>
+            
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-img">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Soil Health</h3>
+                        <p>Learn how sustainable practices improve soil structure, fertility, and water retention capabilities.</p>
+                        <a href="#" class="btn nav-link" data-page="services">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-img">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Water Conservation</h3>
+                        <p>Discover techniques to reduce water usage while maintaining crop yields and quality.</p>
+                        <a href="#" class="btn nav-link" data-page="services">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-img">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Circular Systems</h3>
+                        <p>Explore how waste products can be transformed into valuable resources for farming.</p>
+                        <a href="#" class="btn nav-link" data-page="services">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Page -->
+        <section id="about" class="page">
+            <h1 class="section-title">About Us</h1>
+            
+            <div class="about-content">
+                <div>
+                    <h2>Our Mission</h2>
+                    <p>At AgriFuture, we believe that sustainable agriculture is the key to addressing global food security while preserving our planet's resources. Our mission is to promote and implement farming practices that are environmentally sound, economically viable, and socially responsible.</p>
+                    <p>Founded in 2015 by Mavine Naaman from Kenya, we've worked with farmers across the country to transition to more sustainable methods, resulting in improved yields, reduced environmental impact, and stronger rural communities.</p>
+                </div>
+                <div class="about-img">
+                    <img src="assets/agri_organic_kenya.webp" alt="Sustainable Agriculture in Kenya - Organic farming practices" loading="lazy">
+                </div>
+            </div>
+            
+            <h2 class="section-title">Our Values</h2>
+            
+            <div class="values-list">
+                <div class="value-item">
+                    <i class="fas fa-globe-americas"></i>
+                    <h3>Environmental Stewardship</h3>
+                    <p>We prioritize practices that protect and enhance natural resources.</p>
+                </div>
+                
+                <div class="value-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Community Focus</h3>
+                    <p>We believe in building strong, resilient agricultural communities.</p>
+                </div>
+                
+                <div class="value-item">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Innovation</h3>
+                    <p>We continuously research and adopt cutting-edge sustainable techniques.</p>
+                </div>
+                
+                <div class="value-item">
+                    <i class="fas fa-balance-scale"></i>
+                    <h3>Balance</h3>
+                    <p>We seek harmony between productivity, profitability, and sustainability.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Page -->
+        <section id="services" class="page">
+            <h1 class="section-title">Our Services</h1>
+            
+            <div class="service-item">
+                <h2>Consultation & Planning</h2>
+                <p>Our expert agronomists work directly with farmers to develop customized sustainable farming plans. We assess your current practices, identify areas for improvement, and create a step-by-step transition plan that aligns with your goals and resources.</p>
+                <p>Services include soil testing, water management planning, crop rotation design, and integrated pest management strategies.</p>
+            </div>
+            
+            <div class="service-item">
+                <h2>Education & Training</h2>
+                <p>We offer comprehensive workshops, field days, and online courses covering all aspects of sustainable agriculture. Our educational programs are designed for farmers at all experience levels, from beginners to seasoned professionals looking to adopt new techniques.</p>
+                <p>Topics include cover cropping, conservation tillage, agroforestry, and organic certification processes.</p>
+            </div>
+            
+            <div class="service-item">
+                <h2>Research & Development</h2>
+                <p>Our research team continuously tests and refines sustainable farming methods. We operate demonstration farms where we evaluate new techniques, varieties, and technologies before recommending them to our partner farmers.</p>
+                <p>Current research focuses on drought-resistant crops, biological pest control, and precision agriculture technologies.</p>
+            </div>
+            
+            <div class="service-item">
+                <h2>Market Access Support</h2>
+                <p>We help sustainable farmers connect with markets that value their practices. Our team assists with certification processes, branding, and direct marketing strategies to ensure farmers receive fair compensation for their sustainable products.</p>
+                <p>We maintain partnerships with restaurants, grocery chains, and food cooperatives committed to sourcing from sustainable producers.</p>
+            </div>
+        </section>
+
+        <!-- Gallery Page -->
+        <section id="gallery" class="page">
+            <h1 class="section-title">Gallery</h1>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/banana-farming.jpg" alt="Banana farming in Kenya" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Banana Farming</h3>
+                            <p>Sustainable banana cultivation techniques</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="assets/farmer_growing.jpg" alt="Farmer growing crops" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Crop Cultivation</h3>
+                            <p>Modern farming practices</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="assets/farmer-betty-bondo.jpg" alt="Farmer Betty Bondo" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Farmer Betty</h3>
+                            <p>Success in sustainable agriculture</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="assets/farmers_in_kenya.jpg" alt="Farmers in Kenya working together" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Community Farming</h3>
+                            <p>Farmers working together</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="assets/kenya-Siaya-livelihood.jpg" alt="Livelihood in Siaya, Kenya" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Siaya Livelihood</h3>
+                            <p>Agricultural development</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="assets/tomoatoes-from.jpg" alt="tomoatoes from in Kisumu, Kenya" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Tomoatoes from in Kisumu</h3>
+                            <p>Success in Tomoatoes farming</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-seedling"></i>
+                        <p>More Projects</p>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="section-title">Sustainable Farming in Action</h2>
+            
+            <div class="video-container">
+                <h3>Introduction to Regenerative Agriculture</h3>
+                <div class="video-placeholder">
+                    <div class="video-wrapper">
+                        <iframe 
+                            id="youtubeVideo"
+                            width="100%" 
+                            height="400" 
+                            src="https://www.youtube.com/embed/EVNSXB-3L1c" 
+                            title="Regenerative Farming Techniques" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <p>This video demonstrates how regenerative practices can restore soil health and increase biodiversity on farmland.</p>
+            </div>
+
+            <div class="audio-container">
+                <h3>Podcast: The Future of Farming</h3>
+                <p>Listen to our interview with leading agricultural experts discussing innovations in sustainable farming.</p>
+                
+                <iframe 
+                    allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+                    frameborder="0"
+                    height="175"
+                    style="width:100%; max-width:660px; overflow:hidden; border-radius:10px;"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                    src="https://player.captivate.fm/episode/e8a97669-9852-4b70-a50c-c7f953347453">
+                </iframe>
+                
+                <p style="margin-top: 1rem; font-style: italic;">
+                    Listen to sustainable agriculture experts discuss innovative farming practices
+                </p>
+            </div>
+                
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="page">
+            <h1 class="section-title">Contact Us</h1>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>We'd love to hear from you! Whether you're a farmer interested in transitioning to sustainable practices, a researcher looking to collaborate, or simply someone who wants to learn more, don't hesitate to reach out.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Kisumu, Kano, planes, Kenya</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+254711380614</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@agrifuture.org</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Monday - Friday: 9:00 AM - 5:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <i class="fas fa-map"></i>
+                 <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63839.97014434706!2d34.72253522343799!3d-0.102202488648533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182aa4e94e79ac8f%3A0xdbdf6c38dbbaa6a4!2sKisumu%2C%20Kenya!5e0!3m2!1sen!2sus!4v1690000000000!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0; border-radius: 8px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>AgriFuture</span>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p class="copyright">&copy; <span id="currentYear"></span> All rights reserved.</p>
+                <p class="developer-credit">Developed by Mavine Naaman</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
