@@ -106,7 +106,7 @@ Comprehensive service offerings:
 
 ## 👨‍💻 Developer
 **Developed by:** [Mavine Naaman](https://github.com/mavine4512)  
-📍 *Kisumu, Kenya*  
+📍 *Nairobi, Kenya*  
 
 ---
 
